@@ -5,6 +5,7 @@ class ContactsController < ApplicationController
     @contact = Contact.new(contact_params)
     respond_to do |format|
       if @contact.save
+        Notifier.send_contact_email(@contact).deliver
         format.js { render 'success' } 
       else
         format.js { render 'failure' } 
