@@ -5,5 +5,6 @@ class ApplicationController < ActionController::Base
 
 
 	def hello
+    @contact = Contact.new
 	end
 end

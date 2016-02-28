@@ -84,23 +84,7 @@
 						</div>
 						<div class="col-md-5 sub-form">
 							<div id="sub-form">
-								<form class="subscribe" action="php/subscribe.php" id="invite" method="POST">
-									<h4>Subscribe for free trial</h4>
-									<h5>100% Moneyback Guarantee</h5>
-									<div class="row">
-										<div class="col-md-6">
-											<input type="text" name="fname" id="fname" class="fname" placeholder="First Name">
-										</div>
-										<div class="col-md-6">
-											<input type="text" name="lname" id="lname" class="lname" placeholder="Last Name">
-										</div>
-									</div>
-									<input type="email" class="e-mail" placeholder="Email Address" name="email" id="address" data-validate="validate(required, email)">
-									<input type="checkbox" name="checkboxG1" id="checkboxG1" class="css-checkbox" REQUIRED/><label for="checkboxG1" class="css-label"><span>By clicking here, i agree to the <a class="term-popup" href="#">terms and conditions</a> of this lorem ipsum app</span></label>
-									<div class="clearfix"></div>
-									<div class="space40"></div>
-									<button type="submit" class="btn-main btn-center">Get the free Trial</button>
-								</form>
+                <%= render 'contact_us_form' %>
 							</div>
 							<span id="result"></span>
 						</div>

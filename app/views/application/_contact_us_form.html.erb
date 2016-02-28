@@ -1,0 +1,15 @@
+<%= form_for @contact, remote: true, html: { id: 'invite', class: 'subscribe' } do |f| %>
+  <h4>Subscribe for free trial</h4>
+  <h5>100% Moneyback Guarantee</h5>
+  <div class="row">
+    <div class="col-md-6">
+      <%= f.text_field :first_name, id: 'fname', class: 'fname', placeholder: 'First Name', required: true %>
+    </div>
+    <div class="col-md-6">
+      <%= f.text_field :last_name, id: 'lname', class: 'lname', placeholder: 'Last Name', required: true %>
+    </div>
+  </div>
+  <%= f.email_field :email, id: 'address', class: 'e-mail', placeholder: 'Email Address', required: true, data: { validate: 'validate(required, email)'} %>
+  <div class="clearfix"></div>
+  <%= button_tag 'Get the free Trail', type: 'submit', class: 'btn-main btn-center' %>
+<% end %>
