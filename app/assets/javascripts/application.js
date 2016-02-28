@@ -12,5 +12,18 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap.min
+//= require jquery.easing.min
+//= require flex-slider/jquery.flexslider
+//= require owl-carousel/owl.carousel
+//= require slick/slick
+//= require jquery.prettyphoto
+//= require gmaps
+//= require contact
+//= require mc/jquery.ketchup.all.min
+//= require mc/main.js 
+//= require jquery.countdown.min
+//= require main 
+//= require modernizr.custom
 //= require turbolinks
 //= require_tree .

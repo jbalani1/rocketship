@@ -11,6 +11,15 @@
  * file per style scope.
  *
  *= require font-awesome
+ *= require bootstrap
+ *= require flex-slider/flexslider
+ *= require slick/slick
+ *= require owl-carousel/owl.carousel
+ *= require owl-carousel/owl.theme
+ *= require owl-carousel/owl.transitions
+ *= require prettyphoto
+ *= require style
  *= require_tree .
+ *= require colors/skin-blue
  *= require_self
  */
