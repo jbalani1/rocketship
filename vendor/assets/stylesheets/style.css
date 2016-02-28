@@ -1189,7 +1189,7 @@ header {
 	-webkit-transform: scale(1.05,1.05);
 	-ms-transform: scale(1.05,1.05);
 	transform: scale(1.05,1.05);
-	cursor: url('../images/plus.png'), url('../images/plus.png'), move;  
+	cursor: image-url("plus.png"), image-url("plus.png"), move;  
 }
 
 .shots-thumb img {
